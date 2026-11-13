@@ -1,5 +1,7 @@
 # soc-log-triage
 
+[![testes](https://github.com/o-montalvao/soc-log-triage/actions/workflows/tests.yml/badge.svg)](https://github.com/o-montalvao/soc-log-triage/actions/workflows/tests.yml)
+
 Ferramenta de linha de comando que lê um log de acesso de servidor web (formato *combined*, usado pelo Nginx e pelo Apache) e aponta padrões que um analista de SOC investigaria: muitas tentativas de login falhas vindas do mesmo IP (possível força bruta) e muitas respostas 404 do mesmo IP (possível varredura de diretórios).
 
 Projeto de estudo, feito para praticar triagem de logs (análise de registros para identificar incidentes) e testes automatizados com Python.
