@@ -41,6 +41,7 @@ pytest -v
 - `detect.py`: script principal, com a leitura do log e as regras
 - `tests/test_detect.py`: testes automatizados
 - `sample/access.log`: log de exemplo
+- `.github/workflows/tests.yml`: pipeline de CI, que roda os testes a cada push
 
 ## Limitações
 
